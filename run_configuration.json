@@ -1,0 +1,20 @@
+{
+  "model_name": "google/flan-t5-base",
+  "requested_revision": null,
+  "resolved_pretrained_revisions_at_evaluation": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "alpha": 0.78,
+  "max_length": 128,
+  "batch_size": 4,
+  "gb_refit": "five folds on current cleaned train.csv, fold-local scaler",
+  "feature_importance_mean": {
+    "Starting": 0.4467896148311946,
+    "Ending": 0.5532103851688053
+  },
+  "limitations": "Same text predictor and test rows across branches. This does not reconstruct prior sample selection or prove checkpoint training-set independence. Refit GB is a new evaluation, not reproduction of stored historical GB. Importance is impurity-based, not causal."
+}

@@ -1,0 +1,41 @@
+{
+  "train": {
+    "raw_rows": 11824,
+    "retained_rows": 930,
+    "dropped_rows": 10894,
+    "class_counts": {
+      "0": 696,
+      "1": 234
+    },
+    "sha256": "2c69820ebf0afae1cf4ab30a049644b88d016c508de6b2b75af887f5c372af34"
+  },
+  "valid": {
+    "raw_rows": 2602,
+    "retained_rows": 207,
+    "dropped_rows": 2395,
+    "class_counts": {
+      "0": 156,
+      "1": 51
+    },
+    "sha256": "d20596f215f3fb1f9aa398217336a52feb1a936b945be01a6e1525976dd59cfc"
+  },
+  "test": {
+    "raw_rows": 2550,
+    "retained_rows": 202,
+    "dropped_rows": 2348,
+    "class_counts": {
+      "0": 148,
+      "1": 54
+    },
+    "sha256": "5e70485f7167ff6a32aaaf2e3bf03c7861f54d03e2364a9cb0cdb158a550086c"
+  },
+  "encoding": "MacRoman",
+  "text_overlap_counts": {
+    "train": 2,
+    "valid": 0
+  },
+  "recording_independence": "unverified: provide recording_column if available",
+  "text_overlap_reviewed": false,
+  "evaluation_status": "diagnostic_only_independence_not_established",
+  "test_rows_with_text_overlap": 3
+}

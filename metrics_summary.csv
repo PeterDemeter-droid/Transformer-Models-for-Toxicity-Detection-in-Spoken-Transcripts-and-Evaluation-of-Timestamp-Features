@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,evaluation_status
+text_only,0.8415841584158416,0.808462723716961,diagnostic_only_independence_not_established
+gb_only,0.7079207920792079,0.45913319718629453,diagnostic_only_independence_not_established
+corrected_hybrid,0.8316831683168316,0.7944204980842912,diagnostic_only_independence_not_established

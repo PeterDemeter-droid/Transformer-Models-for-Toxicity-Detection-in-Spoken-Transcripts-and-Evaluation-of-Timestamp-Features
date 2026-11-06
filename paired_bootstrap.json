@@ -1,0 +1,9 @@
+{
+  "delta_macro_f1": -0.01404222563266988,
+  "percentile_95_interval": [
+    -0.03622982747068849,
+    0.0
+  ],
+  "resamples": 2000,
+  "scope": "Diagnostic utterance-level interval conditional on fixed checkpoints. Does not account for recording clusters, training randomness or prior test selection. Data overlap remains unresolved."
+}
